@@ -21,6 +21,7 @@ public class AppiumSampleScript {
 		dc.setCapability("platformName", "Android");
 		dc.setCapability("automationName", "UiAutomator2");
 		
+		//This is new commit from Adiya
 		dc.setCapability("newCommandTimeout", "120000");
 		
 		//Create object of Android Driver ad
